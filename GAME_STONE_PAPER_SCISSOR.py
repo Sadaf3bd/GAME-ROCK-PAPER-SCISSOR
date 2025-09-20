@@ -1,7 +1,7 @@
 import random
 
 def play_game():
-    print("Welcome to Rock, Paper & Scissor 🎮👾")
+    print("Welcome to Rock, Paper & Scissors 🎮👾")
     name = input("Enter Username: ")
     option = ["rock", "paper", "scissors"]
 
