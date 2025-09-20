@@ -6,7 +6,7 @@ def play_game():
     option = ["rock", "paper", "scissors"]
 
     while True:
-        user_choice = input("Enter quit to exit the game OR \n Choose Rock, Paper, Scissor: ").lower()
+        user_choice = input("Enter quit to exit the game OR \n Choose Rock, Paper, Scissors: ").lower()
 
         # USER CHOSE
 
@@ -26,9 +26,9 @@ def play_game():
 
         if user_choice == bot_choice:
             print("🤝 It's a tie!")
-        elif (user_choice == "rock" and bot_choice == "scissor") or \
+        elif (user_choice == "rock" and bot_choice == "scissors") or \
                 (user_choice == "paper" and bot_choice == "rock") or \
-                (user_choice == "scissor" and bot_choice == "paper"):
+                (user_choice == "scissors" and bot_choice == "paper"):
             print(f"{name} ❕ You Win 🏅🎉")
 
         else:
